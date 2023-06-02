@@ -30,6 +30,7 @@ par.f = 1;            free.f     = 0;   units.f = '-';            label.f = 'sca
 par.f_tL1 = 0.65983;  free.f_tL1 = 1;   units.f_tL1 = '-';        label.f_tL1 = 'sc func res Celtic sea'; 
 par.f_tL2 = 0.81431;  free.f_tL2 = 1;   units.f_tL2 = '-';        label.f_tL2 = 'sc func res bay of brest'; 
 par.f_tL3 = 1;        free.f_tL3 = 1;   units.f_tL3 = '-';        label.f_tL3 = 'sc func res Traena'; 
+par.f_Gal = 1;        free.f_Gal = 1;   units.f_Gal = '-';        label.f_Gal = 'sc func res Galicia';
 
 %% set chemical parameters from Kooy2010 
 [par, units, label, free] = addchem(par, units, label, free, metaData.phylum, metaData.class);
